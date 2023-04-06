@@ -11,10 +11,10 @@ def cli():
     pass
 
 
-@cli.command(help="Add a new flight")
-@click.option("-d", "--destination", required=True, help="Destination of the flight")
-@click.option("-n", "--number", type=int, required=True, help="Number of the flight")
-@click.option("-t", "--type", required=True, help="Type of the plane")
+@cli.command("add")
+@click.option("-d", "--destination", help="Destination of the flight")
+@click.option("-n", "--number", type=int, help="Number of the flight")
+@click.option("-t", "--type", help="Type of the plane")
 @click.argument("filename")
 def add(destination, number, type, filename):
     flights = load_flights(filename)
@@ -22,15 +22,15 @@ def add(destination, number, type, filename):
     save_flights(filename, flights)
 
 
-@cli.command(help="Display all flights")
+@cli.command("display")
 @click.argument("filename")
 def display(filename):
     flights = load_flights(filename)
     display_flights(flights)
 
 
-@cli.command(help="Select the flights")
-@click.option("-s", "--select", required=True, help="The required select")
+@cli.command("select")
+@click.option("-s", "--select", help="The required select")
 @click.argument("filename")
 def select(select, filename):
     flights = load_flights(filename)

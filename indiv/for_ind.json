@@ -28,5 +28,10 @@
         "destination": "america",
         "number_flight": 1,
         "type_plane": "official"
+    },
+    {
+        "destination": "france",
+        "number_flight": 11,
+        "type_plane": "passangers"
     }
 ]
