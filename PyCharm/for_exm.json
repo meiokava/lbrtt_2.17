@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Mike",
+        "post": "ceo",
+        "year": 2003
+    },
+    {
+        "name": "Mia",
+        "post": "helper",
+        "year": 2005
+    },
+    {
+        "name": "Mei",
+        "post": "ceo helper",
+        "year": 2022
+    }
+]

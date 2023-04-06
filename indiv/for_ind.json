@@ -1,0 +1,32 @@
+[
+    {
+        "destination": "japan",
+        "number_flight": 2,
+        "type_plane": "passangers"
+    },
+    {
+        "destination": "china",
+        "number_flight": 7,
+        "type_plane": "passangers"
+    },
+    {
+        "destination": "korea",
+        "number_flight": 2,
+        "type_plane": "official"
+    },
+    {
+        "destination": "canada",
+        "number_flight": 3,
+        "type_plane": "official"
+    },
+    {
+        "destination": "canada",
+        "number_flight": 3,
+        "type_plane": "official"
+    },
+    {
+        "destination": "america",
+        "number_flight": 1,
+        "type_plane": "official"
+    }
+]
